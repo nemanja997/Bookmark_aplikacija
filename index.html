@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>Bookmarker aplikacija</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+  </head>
+
+  <body onload="fetchBookmarks()">
+    <div class="container">
+        <div class="jumbotron text-center mt-5">
+            <h1>Bookmarker aplikacija</h1>
+            <form class="mt-5" id="myForm">
+                    <div class="form-group">
+                      <label >Ime sajta</label>
+                      <input type="text" class="form-control" id="siteName"  placeholder="Website name">
+                    </div>
+                    <div class="form-group">
+                      <label >URL sajta</label>
+                      <input type="text" class="form-control" id="siteUrl" placeholder="Website URL">
+                    </div>
+                   
+                    <button type="submit" class="btn btn-primary">Sacuvaj</button>
+                  </form>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div id="bookmarksResults">
+            
+            </div>
+          </div>
+        </div>  
+    </div>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
