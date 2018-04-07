@@ -59,12 +59,11 @@ function fetchBookmarks(){
         var name=bookmarks[i].name;
         var url=bookmarks[i].url;
 
-        bookmarksResults.innerHTML+= '<div class="jumbotron">'+
-                                        '<h3>'+name+
-                                        ' <a class="btn btn-success" target="_blank" href="'+url+'">Pogledaj sajt</a>'+
-                                        ' <a onclick="deleteBookmark(\''+url+'\')" class="btn btn-danger" href="#">Obrisi</a>'+
-                                        '</h3>'+
-                                        '</div>';
+        bookmarksResults.innerHTML+= 
+                                        '<li class="list-group-item lista-bookmarks"><span class="align-middle" style="font-size:1.5em">'+name+'</span>'+
+                                        ' <a class="btn float-right pogledaj-sajt-dugme" target="_blank" href="'+url+'">Pogledaj sajt</a>'+
+                                        ' <a onclick="deleteBookmark(\''+url+'\')" class="btn btn-danger float-right mr-3" href="#">Obriši</a>'+
+                                        '</li>';
     }
     
 }
