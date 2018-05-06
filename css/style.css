@@ -1,6 +1,7 @@
 /*Css varijable*/
 :root {
-    --glavna-boja: #2667FF;
+    --glavna-boja: #477975;
+    --glavna-hover:#38615e;
   }
   /*html-body*/
   body{
@@ -9,7 +10,7 @@
 /*sekcija-unos*/
 .sekcija-unos{
     background-color:var(--glavna-boja);
-
+    box-shadow: 10px 10px 50px rgb(167, 167, 167);
     color:white;
 }
 .glavni-naslov{
@@ -21,22 +22,22 @@
     color:white;
 }
 .submit-dugme:hover{
-    background-color:rgb(36, 93, 228);
-}
-.sekcija-bookmarks{
-    background-color:var(--glavna-boja);
-    
+    background-color:var(--glavna-hover);
 }
 /*sekcija-bookmarks*/
+.sekcija-bookmarks{
+    background-color:var(--glavna-boja);  
+    box-shadow: 10px 10px 50px rgb(167, 167, 167);
+}
 .naslov-bookmarks{
     color:white;
     font-size:1.5em;
 }
 .pogledaj-sajt-dugme{
-    background-color:var(--glavna-boja);
+    background-color:#1a56b1;
     color:white;
 }
 .pogledaj-sajt-dugme:hover{
-    background-color:rgb(36, 93, 228);
+    background-color:#174994;
     color:white;
 }
