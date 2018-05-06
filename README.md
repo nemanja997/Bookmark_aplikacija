@@ -1,4 +1,4 @@
-# Bookmark_aplikacija
+# Bookmarker aplikacija
 
 Tehnologije: <br>
 -HTML5 <br>
