@@ -1,5 +1,6 @@
 # Bookmarker aplikacija
-Aplikacija za bukmarkovanje web stranica.
+Aplikacija za bukmarkovanje web stranica.<br>
+Bookmark-ovi se cuvaju u localStorage-u browser-a,tako da će biti sačuvani i prilikom izlazka is aplikacije ili iz browser-a.
 ### Tehnologije: <br>
 -HTML5 <br>
 -CSS3 <br>
@@ -15,6 +16,5 @@ Aplikacija za bukmarkovanje web stranica.
 -dugme za posetu stranice <br>
 <br>
 -Za pokretanje aplikacije posetite [Live preview](https://codepen.io/nemanja97/full/vjpKVd/)<br>
-**Bookmark-ovi se cuvaju u localStorage-u browser-a,tako da će biti sačuvani i prilikom izlazka is aplikacije ili iz browser-a.**
-<br><br>
+
 
