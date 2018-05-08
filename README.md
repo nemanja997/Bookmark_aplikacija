@@ -1,12 +1,12 @@
 # Bookmarker aplikacija
 Aplikacija za bukmarkovanje web stranica.
-## Tehnologije: <br>
+### Tehnologije: <br>
 -HTML5 <br>
 -CSS3 <br>
 -Vanilla JavaScript(ES5) <br>
 -Bootstrap <br>
  <br>
-## Funkcije: <br>
+### Funkcije: <br>
 -Bukmarkovanje stranice <br>
 -validacija URL-a <br>
 -validacija forme(da li je predata prazna) <br>
