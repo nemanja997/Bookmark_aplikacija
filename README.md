@@ -14,7 +14,7 @@ Aplikacija za bukmarkovanje web stranica.
 -dugme za brisanje bukmarkovanih stranica <br>
 -dugme za posetu stranice <br>
 <br>
--Za pokretanje aplikacije samo posetite [Live preview](https://codepen.io/nemanja97/full/vjpKVd/)<br>
+-Za pokretanje aplikacije posetite [Live preview](https://codepen.io/nemanja97/full/vjpKVd/)<br>
 **Bookmark-ovi se cuvaju u localStorage-u browser-a,tako da će biti sačuvani i prilikom izlazka is aplikacije ili iz browser-a.**
 <br><br>
 
