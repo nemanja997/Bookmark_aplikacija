@@ -16,3 +16,5 @@ Aplikacija za bukmarkovanje web stranica.
 <br>
 -Za pokretanje aplikacije samo download-ujte zipovani fajl,raspakujte i pokrenite u bilo kom browser-u **index.html**<br>
 **Bookmark-ovi se cuvaju u localStorage-u browser-a,tako da će biti sačuvani i prilikom izlazka is aplikacije ili iz browser-a.**
+<br><br>
+[Live preview](https://codepen.io/nemanja97/full/vjpKVd/)
