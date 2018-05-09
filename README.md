@@ -1,5 +1,5 @@
 # Bookmark application
-a web application for bookmarking web pages.<br>
+A web application for bookmarking web pages.<br>
 Bookmarks are stored in localStorage so they will be saved even after closing browser.<br>
 ### Technologies: <br>
 -HTML5 <br>
