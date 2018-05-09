@@ -14,6 +14,6 @@ Bookmarks are stored in localStorage so they will be saved even after closing br
 -Deleting bookmarked pages <br>
 -Button for visiting bookmarked page <br>
 <br>
--For running web application see [Live preview](https://codepen.io/nemanja97/pen/vjpKVd)<br>
+-For running web application see [Live preview](https://codepen.io/nemanja97/full/vjpKVd/)<br>
 
 
