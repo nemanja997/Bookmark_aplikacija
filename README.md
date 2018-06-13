@@ -5,8 +5,8 @@ Bookmarks are stored in localStorage so they will be saved even after closing br
 * HTML5 <br>
 * CSS3 <br>
 * Vanilla JavaScript(ES5) <br>
-* Bootstrap 4 <br>
- <br>
+* Bootstrap 4 
+
 ### Functionality: <br>
 * bookmarking web pages <br>
 * Validation of URL <br>
