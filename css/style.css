@@ -1,43 +1,38 @@
-/*Css varijable*/
-:root {
-    --glavna-boja: #477975;
-    --glavna-hover:#38615e;
-  }
-  /*html-body*/
-  body{
-    background-color:rgb(247, 247, 247); 
-  }
+/*Sass varijable*/
+/*html-body*/
+body {
+  background-color: #f7f7f7; }
+
 /*sekcija-unos*/
-.sekcija-unos{
-    background-color:var(--glavna-boja);
-    box-shadow: 10px 10px 50px rgb(167, 167, 167);
-    color:white;
-}
-.glavni-naslov{
-    font-family: 'Lato', sans-serif; 
-}
-.submit-dugme{
-    background-color:var(--glavna-boja);
-    border:2px solid white;
-    color:white;
-}
-.submit-dugme:hover{
-    background-color:var(--glavna-hover);
-}
+.sekcija-unos {
+  background-color: #477975;
+  -webkit-box-shadow: 10px 10px 50px #a7a7a7;
+  box-shadow: 10px 10px 50px #a7a7a7;
+  color: white; }
+
+.glavni-naslov {
+  font-family: 'Lato', sans-serif; }
+
+.submit-dugme {
+  background-color: #477975;
+  border: 2px solid white;
+  color: white; }
+  .submit-dugme :hover {
+    background-color: #38615e; }
+
 /*sekcija-bookmarks*/
-.sekcija-bookmarks{
-    background-color:var(--glavna-boja);  
-    box-shadow: 10px 10px 50px rgb(167, 167, 167);
-}
-.naslov-bookmarks{
-    color:white;
-    font-size:1.5em;
-}
-.pogledaj-sajt-dugme{
-    background-color:#1a56b1;
-    color:white;
-}
-.pogledaj-sajt-dugme:hover{
-    background-color:#174994;
-    color:white;
-}
+.sekcija-bookmarks {
+  background-color: #477975;
+  -webkit-box-shadow: 10px 10px 50px #a7a7a7;
+  box-shadow: 10px 10px 50px #a7a7a7; }
+
+.naslov-bookmarks {
+  color: white;
+  font-size: 1.5em; }
+
+.pogledaj-sajt-dugme {
+  background-color: #1a56b1;
+  color: white; }
+  .pogledaj-sajt-dugme :hover {
+    background-color: #174994;
+    color: white; }

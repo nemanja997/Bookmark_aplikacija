@@ -1,0 +1,43 @@
+/*Sass varijable*/
+
+    $glavna-boja: #477975;
+    $glavna-hover:#38615e;
+
+  /*html-body*/
+  body{
+    background-color:rgb(247, 247, 247); 
+  }
+/*sekcija-unos*/
+.sekcija-unos{
+    background-color: $glavna-boja;
+    box-shadow: 10px 10px 50px rgb(167, 167, 167);
+    color:white;
+}
+.glavni-naslov{
+    font-family: 'Lato', sans-serif; 
+}
+.submit-dugme{
+    background-color: $glavna-boja;
+    border:2px solid white;
+    color:white;
+    :hover{
+        background-color:$glavna-hover;
+    }
+}
+/*sekcija-bookmarks*/
+.sekcija-bookmarks{
+    background-color: $glavna-boja;  
+    box-shadow: 10px 10px 50px rgb(167, 167, 167);
+}
+.naslov-bookmarks{
+    color:white;
+    font-size:1.5em;
+}
+.pogledaj-sajt-dugme{
+    background-color:#1a56b1;
+    color:white;
+    :hover{
+        background-color:#174994;
+        color:white;
+    }
+}
