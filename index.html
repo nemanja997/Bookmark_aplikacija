@@ -9,25 +9,28 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!--google-fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
   </head>
 
   <body onload="fetchBookmarks()">
     <div class="container">
       <!--sekcija-unos-->
-        <div class="jumbotron text-center mt-3 sekcija-unos">
-            <h1 class="glavni-naslov">Bookmarker aplikacija</h1>
+      <div class="glavni-naslov-div mt-3">
+        <h1 class="glavni-naslov">Bookmarker</h1>
+      </div>
+        <div class="jumbotron text-center sekcija-unos">
+            
             <form class="mt-5" id="myForm">
                     <div class="form-group">
-                      <label >Ime sajta</label>
-                      <input type="text" class="form-control" id="siteName"  placeholder="Ime sajta...">
+                     
+                      <input type="text" class=" form-input" id="siteName"  placeholder="Ime sajta...">
                     </div>
                     <div class="form-group">
-                      <label >URL sajta</label>
-                      <input type="text" class="form-control" id="siteUrl" placeholder="URL...">
+                      
+                      <input type="text" class="form-input" id="siteUrl" placeholder="URL sajta...">
                     </div>
                    
-                    <button type="submit" class="btn btn-lg submit-dugme">Sačuvaj</button>
+                    <button type="submit" class="btn btn-lg submit-dugme">Bookmarkuj</button>
                   </form>
         </div>
         <!--sekcija-bookmarks-->
@@ -36,7 +39,7 @@
             <!--kartica za prikaz bookmarks-a -->
             <div  class="card sekcija-bookmarks">
                 <div class="card-header naslov-bookmarks">
-                    Sajtovi:
+                    Sajtovi
                   </div>
                   <!--targetovani element za prikaz bookmarks-a -->
               <ul class="list-group list-group-flush" id="bookmarksResults">

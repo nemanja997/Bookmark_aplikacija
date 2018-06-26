@@ -1,43 +1,148 @@
 /*Sass varijable*/
 
-    $glavna-boja: #477975;
-    $glavna-hover:#38615e;
+    $glavna-boja: #f4f7f8;
+    $glavna-hover:#e8eeef;
+    $dugme:#1abc9c;
+    $dugme-hover:#1fa086;
+    $more-plava:#2988be;
+
+    /*Za long-shadow naslova*/
+    @function setLongShadow($color, $length) {
+        $value: 0 0 $color;
+        @for $i from 1 through $length {
+            $value: #{$value}, #{$i}px #{$i}px #{$color};
+        }
+        @return $value;
+    }
+
+    @mixin longShadow($color, $length:200) {
+        text-shadow: setLongShadow($color, $length);
+    }
 
   /*html-body*/
   body{
-    background-color:rgb(247, 247, 247); 
+    background-color:#39424e; 
+    font-family: 'Lato', sans-serif;
   }
 /*sekcija-unos*/
 .sekcija-unos{
     background-color: $glavna-boja;
-    box-shadow: 10px 10px 50px rgb(167, 167, 167);
-    color:white;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+    color:black;
+    border-radius:0px;
+    padding-top:2vh;
+    margin-bottom:.5rem;
+    color:#444444;
 }
 .glavni-naslov{
     font-family: 'Lato', sans-serif; 
+    font-weight: 900;
+    @include longShadow($dugme-hover, 220);
+    overflow: hidden;
+    color:white;
+    padding:1vh 0vh;
+    text-transform: uppercase;
+}
+.glavni-naslov-div{
+    background-color:$dugme;
+    text-align:center;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+    
 }
 .submit-dugme{
-    background-color: $glavna-boja;
-    border:2px solid white;
-    color:white;
-    :hover{
-        background-color:$glavna-hover;
-    }
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    background-color: $dugme;
+    font-size: 20px;
+    
+    color: #FFF;
+    padding: 10px 50px;
+    border-radius:0px;
+}
+.submit-dugme:hover{
+    background-color: $dugme-hover;
+}
+.submit-dugme:active, .submit-dugme:focus{
+    outline:none;
+    box-shadow: none;
 }
 /*sekcija-bookmarks*/
 .sekcija-bookmarks{
     background-color: $glavna-boja;  
-    box-shadow: 10px 10px 50px rgb(167, 167, 167);
-}
-.naslov-bookmarks{
-    color:white;
-    font-size:1.5em;
-}
-.pogledaj-sajt-dugme{
-    background-color:#1a56b1;
-    color:white;
-    :hover{
-        background-color:#174994;
-        color:white;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+    border-radius:0px;
+    border:0px;
+    .naslov-bookmarks{
+        color:White;
+        font-size:1.5em;
+        background-color: $more-plava;
+        border-radius:0px !important;
+        font-family: 'Lato', sans-serif; 
+        font-weight: 900;
+        
     }
 }
+
+.pogledaj-sajt-dugme{
+    background-color:rgba(0,0,0,0);
+    border:1px solid $more-plava;
+    color:$more-plava;
+    border-radius:0px; 
+    
+}
+.pogledaj-sajt-dugme:hover{
+    background-color:$more-plava;
+        color:white;
+}
+.pogledaj-sajt-dugme:active, .pogledaj-sajt-dugme:focus{
+    outline:none;
+    box-shadow: none;
+}
+.dugme-obrisi{
+    background-color:rgba(0,0,0,0);
+    border:1px solid $more-plava;
+    color:$more-plava;
+    border-radius:0px;
+    box-shadow:none;
+
+}
+.dugme-obrisi:hover{
+    background-color:$more-plava;
+        color:white;
+}
+.dugme-obrisi:active, .dugme-obrisi:focus{
+    outline:none;
+    box-shadow: none;
+}
+.text-sajta{
+    color:#444444;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-input{
+    background: $glavna-hover;
+    border: none;
+    border-radius: 0px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: $glavna-hover;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    :focus{
+        background-color: #cacaca;
+    }
+    :active{
+        background-color: #d2d9dd;
+    }
+}
+
+    
+    

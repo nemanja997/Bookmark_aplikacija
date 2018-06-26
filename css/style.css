@@ -1,38 +1,122 @@
 /*Sass varijable*/
+/*Za long-shadow naslova*/
 /*html-body*/
 body {
-  background-color: #f7f7f7; }
+  background-color: #39424e;
+  font-family: 'Lato', sans-serif; }
 
 /*sekcija-unos*/
 .sekcija-unos {
-  background-color: #477975;
-  -webkit-box-shadow: 10px 10px 50px #a7a7a7;
-  box-shadow: 10px 10px 50px #a7a7a7;
-  color: white; }
+  background-color: #f4f7f8;
+  -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+  color: black;
+  border-radius: 0px;
+  padding-top: 2vh;
+  margin-bottom: .5rem;
+  color: #444444; }
 
 .glavni-naslov {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  text-shadow: 0 0 #1fa086, 1px 1px #1fa086, 2px 2px #1fa086, 3px 3px #1fa086, 4px 4px #1fa086, 5px 5px #1fa086, 6px 6px #1fa086, 7px 7px #1fa086, 8px 8px #1fa086, 9px 9px #1fa086, 10px 10px #1fa086, 11px 11px #1fa086, 12px 12px #1fa086, 13px 13px #1fa086, 14px 14px #1fa086, 15px 15px #1fa086, 16px 16px #1fa086, 17px 17px #1fa086, 18px 18px #1fa086, 19px 19px #1fa086, 20px 20px #1fa086, 21px 21px #1fa086, 22px 22px #1fa086, 23px 23px #1fa086, 24px 24px #1fa086, 25px 25px #1fa086, 26px 26px #1fa086, 27px 27px #1fa086, 28px 28px #1fa086, 29px 29px #1fa086, 30px 30px #1fa086, 31px 31px #1fa086, 32px 32px #1fa086, 33px 33px #1fa086, 34px 34px #1fa086, 35px 35px #1fa086, 36px 36px #1fa086, 37px 37px #1fa086, 38px 38px #1fa086, 39px 39px #1fa086, 40px 40px #1fa086, 41px 41px #1fa086, 42px 42px #1fa086, 43px 43px #1fa086, 44px 44px #1fa086, 45px 45px #1fa086, 46px 46px #1fa086, 47px 47px #1fa086, 48px 48px #1fa086, 49px 49px #1fa086, 50px 50px #1fa086, 51px 51px #1fa086, 52px 52px #1fa086, 53px 53px #1fa086, 54px 54px #1fa086, 55px 55px #1fa086, 56px 56px #1fa086, 57px 57px #1fa086, 58px 58px #1fa086, 59px 59px #1fa086, 60px 60px #1fa086, 61px 61px #1fa086, 62px 62px #1fa086, 63px 63px #1fa086, 64px 64px #1fa086, 65px 65px #1fa086, 66px 66px #1fa086, 67px 67px #1fa086, 68px 68px #1fa086, 69px 69px #1fa086, 70px 70px #1fa086, 71px 71px #1fa086, 72px 72px #1fa086, 73px 73px #1fa086, 74px 74px #1fa086, 75px 75px #1fa086, 76px 76px #1fa086, 77px 77px #1fa086, 78px 78px #1fa086, 79px 79px #1fa086, 80px 80px #1fa086, 81px 81px #1fa086, 82px 82px #1fa086, 83px 83px #1fa086, 84px 84px #1fa086, 85px 85px #1fa086, 86px 86px #1fa086, 87px 87px #1fa086, 88px 88px #1fa086, 89px 89px #1fa086, 90px 90px #1fa086, 91px 91px #1fa086, 92px 92px #1fa086, 93px 93px #1fa086, 94px 94px #1fa086, 95px 95px #1fa086, 96px 96px #1fa086, 97px 97px #1fa086, 98px 98px #1fa086, 99px 99px #1fa086, 100px 100px #1fa086, 101px 101px #1fa086, 102px 102px #1fa086, 103px 103px #1fa086, 104px 104px #1fa086, 105px 105px #1fa086, 106px 106px #1fa086, 107px 107px #1fa086, 108px 108px #1fa086, 109px 109px #1fa086, 110px 110px #1fa086, 111px 111px #1fa086, 112px 112px #1fa086, 113px 113px #1fa086, 114px 114px #1fa086, 115px 115px #1fa086, 116px 116px #1fa086, 117px 117px #1fa086, 118px 118px #1fa086, 119px 119px #1fa086, 120px 120px #1fa086, 121px 121px #1fa086, 122px 122px #1fa086, 123px 123px #1fa086, 124px 124px #1fa086, 125px 125px #1fa086, 126px 126px #1fa086, 127px 127px #1fa086, 128px 128px #1fa086, 129px 129px #1fa086, 130px 130px #1fa086, 131px 131px #1fa086, 132px 132px #1fa086, 133px 133px #1fa086, 134px 134px #1fa086, 135px 135px #1fa086, 136px 136px #1fa086, 137px 137px #1fa086, 138px 138px #1fa086, 139px 139px #1fa086, 140px 140px #1fa086, 141px 141px #1fa086, 142px 142px #1fa086, 143px 143px #1fa086, 144px 144px #1fa086, 145px 145px #1fa086, 146px 146px #1fa086, 147px 147px #1fa086, 148px 148px #1fa086, 149px 149px #1fa086, 150px 150px #1fa086, 151px 151px #1fa086, 152px 152px #1fa086, 153px 153px #1fa086, 154px 154px #1fa086, 155px 155px #1fa086, 156px 156px #1fa086, 157px 157px #1fa086, 158px 158px #1fa086, 159px 159px #1fa086, 160px 160px #1fa086, 161px 161px #1fa086, 162px 162px #1fa086, 163px 163px #1fa086, 164px 164px #1fa086, 165px 165px #1fa086, 166px 166px #1fa086, 167px 167px #1fa086, 168px 168px #1fa086, 169px 169px #1fa086, 170px 170px #1fa086, 171px 171px #1fa086, 172px 172px #1fa086, 173px 173px #1fa086, 174px 174px #1fa086, 175px 175px #1fa086, 176px 176px #1fa086, 177px 177px #1fa086, 178px 178px #1fa086, 179px 179px #1fa086, 180px 180px #1fa086, 181px 181px #1fa086, 182px 182px #1fa086, 183px 183px #1fa086, 184px 184px #1fa086, 185px 185px #1fa086, 186px 186px #1fa086, 187px 187px #1fa086, 188px 188px #1fa086, 189px 189px #1fa086, 190px 190px #1fa086, 191px 191px #1fa086, 192px 192px #1fa086, 193px 193px #1fa086, 194px 194px #1fa086, 195px 195px #1fa086, 196px 196px #1fa086, 197px 197px #1fa086, 198px 198px #1fa086, 199px 199px #1fa086, 200px 200px #1fa086, 201px 201px #1fa086, 202px 202px #1fa086, 203px 203px #1fa086, 204px 204px #1fa086, 205px 205px #1fa086, 206px 206px #1fa086, 207px 207px #1fa086, 208px 208px #1fa086, 209px 209px #1fa086, 210px 210px #1fa086, 211px 211px #1fa086, 212px 212px #1fa086, 213px 213px #1fa086, 214px 214px #1fa086, 215px 215px #1fa086, 216px 216px #1fa086, 217px 217px #1fa086, 218px 218px #1fa086, 219px 219px #1fa086, 220px 220px #1fa086;
+  overflow: hidden;
+  color: white;
+  padding: 1vh 0vh;
+  text-transform: uppercase; }
+
+.glavni-naslov-div {
+  background-color: #1abc9c;
+  text-align: center;
+  -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2); }
 
 .submit-dugme {
-  background-color: #477975;
-  border: 2px solid white;
-  color: white; }
-  .submit-dugme :hover {
-    background-color: #38615e; }
+  border: 1px solid #16a085;
+  border-width: 1px 1px 3px;
+  background-color: #1abc9c;
+  font-size: 20px;
+  color: #FFF;
+  padding: 10px 50px;
+  border-radius: 0px; }
+
+.submit-dugme:hover {
+  background-color: #1fa086; }
+
+.submit-dugme:active, .submit-dugme:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
 
 /*sekcija-bookmarks*/
 .sekcija-bookmarks {
-  background-color: #477975;
-  -webkit-box-shadow: 10px 10px 50px #a7a7a7;
-  box-shadow: 10px 10px 50px #a7a7a7; }
-
-.naslov-bookmarks {
-  color: white;
-  font-size: 1.5em; }
+  background-color: #f4f7f8;
+  -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  border: 0px; }
+  .sekcija-bookmarks .naslov-bookmarks {
+    color: White;
+    font-size: 1.5em;
+    background-color: #2988be;
+    border-radius: 0px !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900; }
 
 .pogledaj-sajt-dugme {
-  background-color: #1a56b1;
+  background-color: transparent;
+  border: 1px solid #2988be;
+  color: #2988be;
+  border-radius: 0px; }
+
+.pogledaj-sajt-dugme:hover {
+  background-color: #2988be;
   color: white; }
-  .pogledaj-sajt-dugme :hover {
-    background-color: #174994;
-    color: white; }
+
+.pogledaj-sajt-dugme:active, .pogledaj-sajt-dugme:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.dugme-obrisi {
+  background-color: transparent;
+  border: 1px solid #2988be;
+  color: #2988be;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.dugme-obrisi:hover {
+  background-color: #2988be;
+  color: white; }
+
+.dugme-obrisi:active, .dugme-obrisi:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.text-sajta {
+  color: #444444;
+  font-family: 'Lato', sans-serif; }
+
+.form-input {
+  background: #e8eeef;
+  border: none;
+  border-radius: 0px;
+  font-size: 16px;
+  margin: 0;
+  outline: 0;
+  padding: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px; }
+  .form-input :focus {
+    background-color: #cacaca; }
+  .form-input :active {
+    background-color: #d2d9dd; }

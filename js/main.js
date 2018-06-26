@@ -60,9 +60,9 @@ function fetchBookmarks(){
         var url=bookmarks[i].url;
 
         bookmarksResults.innerHTML+= 
-                                        '<li class="list-group-item lista-bookmarks"><span class="align-middle" style="font-size:1.5em">'+name+'</span>'+
-                                        ' <a class="btn float-right pogledaj-sajt-dugme" target="_blank" href="'+url+'">Pogledaj sajt</a>'+
-                                        ' <a onclick="deleteBookmark(\''+url+'\')" class="btn btn-danger float-right mr-3" href="#">Obriši</a>'+
+                                        '<li class="list-group-item lista-bookmarks"><span class="align-middle text-sajta" style="font-size:1.5em">'+name+'</span>'+
+                                        ' <a class="btn float-right pogledaj-sajt-dugme" target="_blank" href="'+url+'">Poseti</a>'+
+                                        ' <a onclick="deleteBookmark(\''+url+'\')" class="dugme-obrisi btn float-right mr-3" href="#">Ukloni</a>'+
                                         '</li>';
     }
     
